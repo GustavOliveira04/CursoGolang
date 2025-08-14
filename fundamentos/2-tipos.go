@@ -28,4 +28,4 @@ func main() {
 
 	// Para verificar o tipo de dado usando a função
 	fmt.Println(fmt.Sprintf("%T", maiorDeIdade))
-}
+} 
