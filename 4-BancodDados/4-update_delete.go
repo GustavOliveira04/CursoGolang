@@ -36,3 +36,4 @@ func main() {
 	}
 	log.Printf("Deleted %d row(s)\n", affectedRows)
 }
+
