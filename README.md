@@ -24,7 +24,7 @@ Ao final, fui capaz de criar aplicações completas utilizando Go, construir API
 - Aplicação de conceitos de concorrência e otimização de performance.
 
 ## 🛠 Tecnologias e Conceitos Abordados
-
+ 
 - **Linguagem**: Go (Golang)
 - **APIs REST**
 - **Banco de Dados**: MySQL, PostgreSQL, SQLite
