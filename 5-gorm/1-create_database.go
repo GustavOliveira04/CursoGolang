@@ -21,3 +21,4 @@ func main() {
 	// Migrar a tabela
 	db.AutoMigrate(&Product{})
 }
+ 

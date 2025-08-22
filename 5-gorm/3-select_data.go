@@ -29,7 +29,7 @@ func main() {
 
 	// Select de produto pelo preço (um de cada vez)
 	db.First(&product, "price = ?", "3500")
-
+ 
 	// Select de todos os produtos
 	var products []Product
 	db.Find(&products)

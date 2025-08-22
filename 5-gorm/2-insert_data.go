@@ -3,7 +3,7 @@ package main
 import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-)
+) 
 
 // Configuração do ambiente
 type Product struct {

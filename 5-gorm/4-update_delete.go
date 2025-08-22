@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
@@ -19,14 +21,14 @@ func main() {
 	}
 
 	// Update de um produto
-	// var p Product
-	// db.First(&p, 1)
-	// p.Name = "Data Show"
-	// db.Save(&p)
+	var p Product
+	db.First(&p, 1)
+	p.Name = "Data Show"
+	db.Save(&p)
 
-	// var p2 Product
-	// db.First(&p2, 1)
-	// fmt.Println(p2.Name)
+	var p2 Product
+	db.First(&p2, 1)
+	fmt.Println(p2.Name)
 
 	// Atualizando múltiplas colunas
 	db.Model(&Product{}).Where("id = ?", 1).Updates(Product{Price: 5000, Name: "Xbox Series X"})
