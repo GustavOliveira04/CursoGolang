@@ -32,4 +32,4 @@ Ao final, fui capaz de criar aplicações completas utilizando Go, construir API
 - **Go Modules** e pacotes nativos
 
 ---
-📅 **Status**: ✅ Em andamento...
+📅 **Status**: ✅ Concluido
